@@ -1,0 +1,23 @@
+table {
+	table-layout: fixed;
+	white-space: nowrap;
+	padding: 0;
+	margin: 0;
+	border-collapse: collapse;
+}
+
+td, th, tr{
+  table-layout: fixed;
+  width: 30px;
+  height: 30px;
+}
+
+td:after {
+  content: "";
+  display: block;
+  margin-top: 100%;
+}
+
+td {
+  border: 1px solid #222;
+}
